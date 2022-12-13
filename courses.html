@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Branko Pualić-Radujko"/>
+    <meta name="description" content="Web page with the big amount of courses available to buy. Courses topic are programming and web design." />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Python, Java, Swift, C, C++, C#, Bundles, Courses, Programming, Web Design" />
+
+    <title>Levixon Teach</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png"/>
+    <!-- Style -->
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css"/>
+    <script src="https://kit.fontawesome.com/e93febcf72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="other">
+        <div id="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo of the page. Blue bird"/>
+            </a>
+            <div id="logo-h">
+                <h1>Levicox</h1>
+                <h1>Teach</h1>
+            </div>
+        </div>
+        <div id="nav">
+            <nav>
+                <i class="fa-solid fa-xmark"></i>
+                <ul class="nav-menu">
+                    <!-- Content is done through JavaScript -->
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="#" class="userCartBtn">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </a>
+                <a href="#" class="userBtn">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+            
+        </div>
+    </header>
+    <main>
+    
+        <!-- Content of the page is done through JavaScript -->
+
+    </main>
+
+
+
+
+    <footer>
+        <div id="site-content">
+            <h3>Site content</h3>
+            <ul>
+                <li><a href="index.html#us">Our Work</a></li>
+                <li><a href="index.html#community">Community</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="index.html#contact">Contact us</a></li>
+                <li><a href="index.html#autor">Author</a></li>
+            </ul>
+        </div>
+        <div id="copy">
+            <p>LevixonTeach&copy;Copyright</p>
+            <div id="footer-links">
+                <a href="">CSS</a>
+                <a href="">Dokumentacija</a>
+                <a href="assets/xml/sitemap.xml">Sitemap</a>
+                <a href="assets/xml/rss.xml">RSS</a>
+            </div>
+        </div>
+        <div id="footer-txt">
+            <p>We love improving and giving our customers best content available today. 
+                We really appreciate all the support you give us.
+            </p>
+            <p>levixonteach&commat;gmail.com</p>
+        </div>
+    </footer>
+
+<!-- Sign in modal -->
+<div class="hidden coursesPage modalLogin">
+    <form action="baza.php" method="post" name="login" id="login">
+        <input type="text" name="username" id="user" placeholder="Username"/>
+        <span id="userName"></span>
+        <input type="password" name="password" id="password" placeholder="Password"/>
+        <span id="passwordRe"></span>
+        <input type="submit" value="SIGN IN" id="signin"/>
+        <span id="signInSuc"></span>
+    </form>
+</div>
+
+    <!-- Cart -->
+    <div class="hidden modalCart">
+        <div class="sum"></div>
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+</body>
+</html>

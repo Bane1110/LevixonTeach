@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Branko Pualić-Radujko"/>
+    <meta name="description" content="Home page of the Levixon Teach website. Contains information on how we started and courses on various fields of programming." />
+    <meta name="keywords" content="Community, Courses, HTML, Python, Programming, Bundles, reviews" />
+
+    <title>Levixon Teach</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png"/>
+    <!-- Style -->
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css"/>
+    <script src="https://kit.fontawesome.com/e93febcf72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo of the page. Blue bird"/>
+            </a>
+            <div id="logo-h">
+                <h1>Levicox</h1>
+                <h1>Teach</h1>
+            </div>
+        </div>
+        <div id="nav">
+            <nav>
+                <i class="fa-solid fa-xmark"></i>
+                <ul class="nav-menu">
+                    <!-- Content is done through JavaScript -->
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="#" class="userCartBtn">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </a>
+                <a href="#" class="userBtn">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+            
+        </div>
+    </header>
+    <section id="welcome">
+        <div id="w-text" class="left-reveal">
+            <h1>With Levixon Teach
+                Codding is easier</h1>
+            <p>Learn how to code through out many courses.</p>
+            <div class="btn-link">
+                <a href="#" class="userBtn">SIGN IN</a>
+                <a href="courses.html">COURSES</a>
+            </div>
+        </div>
+        <img src="images/front.png" alt="Animated guys working on a computer" class="right-reveal"/>
+    </section>
+    <section id="us" class="reveal">
+        <h2 class="all-h">Our Work</h2>
+        <div id="us-content">
+            <div id="us-text">
+                <p>We started working as a company in late 2022. Our primary goal is to help people learn coding through various courses on different programing languages. Our team is constantly trying to improve our courses and ways how they interact with our customers.
+                    We started small, and now our community is getting bigger each day. Join our community on a Discord via link below.</p>
+                <div class="btn-link">
+                    <a href="https://discord.com/">JOIN NOW</a>
+                </div>
+            </div>
+            <img src="images/us.png" alt="Animated people chatting about new ideas"/>
+        </div>
+    </section>
+    <section id="community"class="reveal">
+        <h2 class="all-h">Our Ccommunity</h2>
+        <div id="c-content">
+            <!-- Content is done through JavaScript -->
+        </div>
+    </section>
+    <section id="courses"class="reveal">
+        <h2 class="all-h">Courses</h2>
+        <!-- Content is done through JavaScript -->
+    </section>
+    <section id="reviews"class="reveal">
+        <!-- Content is done through JavaScript -->
+    </section>
+    <section id="contact"class="reveal">
+        <h2 class="all-h">Contact</h2>
+        <div id="contact-container">
+            <div id="img-contact">
+                <img src="images/contact.png" alt="Computer and mobile advices communicating with each other"/>
+                <div id="icons-contact">
+                    <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://discord.com/"> <i class="fa-brands fa-discord"></i></a>             
+                </div>
+            </div>
+            <div id="forma">
+                <!-- Form is done through JavaScript -->
+            </div>
+        </div>
+    </section>
+    <section id="autor"class="reveal">
+        <h2 class="all-h">Author</h2>
+        <div id="author-container">
+            <img src="images/moja.jpg" alt="This is the picture of the author"/>
+            <p>
+                My name is Branko Pualić-Radujko and I am 20 years old. I am full stack developer in process. I was born and raised in Serbia, Belgrade. 
+                I study at ICT College and I am currently in the second year. All my experience is tied with years I spent on ICT College, so about one and a half year. Before this in High school I did very little web design.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div id="site-content">
+            <h3>Site content</h3>
+            <ul>
+                <li><a href="#us">Our Work</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                <li><a href="#autor">Author</a></li>
+            </ul>
+        </div>
+        <div id="copy">
+            <p>LevixonTeach&copy;Copyright</p>
+            <div id="footer-links">
+                <a href="">CSS</a>
+                <a href="">Dokumentacija</a>
+                <a href="assets/xml/sitemap.xml">Sitemap</a>
+                <a href="assets/xml/rss.xml">RSS</a>
+            </div>
+        </div>
+        <div id="footer-txt">
+            <p>We love improving and giving our customers best content available today. 
+                We really appreciate all the support you give us.
+            </p>
+            <p>levixonteach&commat;gmail.com</p>
+        </div>
+    </footer>
+    <!-- Sign in -->
+    <div class="hidden modalLogin">
+        <form action="baza.php" method="post" name="login" id="login">
+            <input type="text" name="username" id="user" placeholder="Username"/>
+            <span id="userName"></span>
+            <input type="password" name="password" id="password" placeholder="Password"/>
+            <span id="passwordRe"></span>
+            <input type="submit" value="SIGN IN" id="signin"/>
+            <span id="signInSuc"></span>
+        </form>
+    </div>
+
+    <!-- Cart -->
+    <div class="hidden modalCart homeP">
+        <div class="sum"></div>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+</body>
+</html>
