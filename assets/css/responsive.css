@@ -89,7 +89,21 @@
         top: 10%;
     }   
 }
-
+@media screen and (max-width: 1340px){
+    #community #c-content .c-text{
+        height: auto;
+    }
+}
+@media screen and (max-width: 1250px){
+    #courses-content .co-text .added{
+        font-size: 1.35rem;
+    }
+}
+@media screen and (max-width: 1126px){
+    #courses-content .co-text .added{
+        margin-left: 0%;
+    }
+}
 @media screen and  (max-width: 1025px){
     #nav{
         width: 70%;
@@ -208,10 +222,27 @@
 
         /* Span for home page add to cart button */
         #courses-content .co-text .added{
-            margin-left: 5%;
+            margin-left: 10%;
         }
 }
-
+@media screen and (max-width: 991px){
+    #us #us-content #us-text .btn-link{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 886px){
+    #us #us-content #us-text .btn-link{
+        width: 29%;
+    }
+    #courses-content .co-text .added{
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 805px){
+    #courses-content .co-text .added{
+        font-size: 1.2rem;
+    }
+}
 @media screen and (max-width: 769px){
     h2.all-h {
         font-size: 3rem;
@@ -405,16 +436,57 @@
         top: 10%;
         right: 20%;
       }
-      #courses-content .co-text .added{
-        margin-left: 12%;
-    }
     .web .row .column .added{
         height: 2.2rem;
         font-size: 1.5rem;
-        width: 65%;
+    }
+    #courses-content .co-text .added{
+        font-size: 1.5rem;
+        margin-left: 10%;
     }
 }
-
+@media screen and (max-width: 641px){
+    #courses-content .co-text .added{
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 582px){
+    #us #us-content #us-text .btn-link{
+        width: 37%;
+    }
+    .homeP {
+        top: 12%;
+    }
+    .modalCart{
+        top: 11.5%;
+    }
+    /* Courses section */
+    #courses{
+        overflow-x: hidden;
+    }
+    #courses #courses-content .co-text{
+        width: 100%;
+    }
+    #courses-content .co-text .added{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 515px){
+    #us #us-content #us-text .btn-link{
+        width: 42%;
+    }
+    .web .row .column .added{
+        font-size: 1.25rem;
+    }
+    #courses-content .co-text .added{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 454px){
+    #us #us-content #us-text .btn-link{
+        width: 48%;
+    }
+}
 @media screen and (max-width: 426px){
     h2.all-h{
         font-size: 2.5rem;
@@ -462,14 +534,6 @@
     #community #c-content .c-text{
         width: 100%;
     }
-
-    /* Courses section */
-    #courses{
-        overflow-x: hidden;
-    }
-    #courses #courses-content .co-text{
-        width: 100%;
-    }
     /* Review section */
     .comments .com-content{
         flex-direction: column;
@@ -514,20 +578,17 @@
     header #nav .icons a{
         margin-left: 2rem;
     }
-    /* Span for add to cart */
-    #courses-content .co-text .added{
-        margin-left: 15%;
-    }
     /* Courses page span and cart modal */
 
     .modalCart{
         right: 23%;
     }
-    .web .row .column .added{
-        width: 75%;
+}
+@media screen and (max-width: 395px){
+    #us #us-content #us-text .btn-link{
+        width: 55%;
     }
 }
-
 @media screen and (max-width: 376px){
     /* Courses page */
     .web .row .column .btn-to-cart{
@@ -554,10 +615,6 @@
          margin: 0 auto;
          margin-bottom: 1rem;
      }
-    /* Our Work section */
-    #us-content #us-text .btn-link{
-        width: 52%;
-    }
 
     /* Header */
     header #nav .icons{
@@ -576,9 +633,16 @@
         left: 5%;
         position: relative;
     }
+    #courses-content .co-text .added{
+        margin-left: 12%;
+    }
 
 }
-
+@media screen and (max-width: 395px){
+    #us #us-content #us-text .btn-link{
+        width: 65%;
+    }
+}
 @media screen and (max-width: 321px){
     /* Our Work section */
     #us-content #us-text .btn-link{
@@ -596,12 +660,7 @@
     .modalLogin{
         right: 0%;
     }
-     /* Span tag for btn-to-cart */
-     #courses-content .co-text .added{
-        margin-left: 5%;
-    }   
-
-    .web .row .column .added{
-        width: 90%;
+    #courses-content .co-text .added{
+        margin-left: 4%;
     }
 }

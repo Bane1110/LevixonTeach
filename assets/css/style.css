@@ -290,7 +290,8 @@ h2.all-h {
 #courses-content .co-text .added{
     height: 2rem;
     color: rgb(110, 220, 83);
-    width: 60%;
+    width: 100%;
+    text-align: center;
     font-size: 1.5rem;
     margin-left: 10%;
 }
@@ -611,8 +612,8 @@ main {
 }
 .web .row .column .added{
     height: 2rem;
-    width: 60%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
     color: rgb(110, 220, 83);
 }
 
