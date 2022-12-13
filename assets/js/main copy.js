@@ -121,8 +121,10 @@ $btnSignin.click(function(e){
 
 
 const url = window.location.href;
-
-if(url == (`https://bane1110.github.io/LevixonTeach/`)|| url == (`https://bane1110.github.io/LevixonTeach/index.html`)){
+console.log(url)
+// if(url == (`https://bane1110.github.io/LevixonTeach/`)|| url == (`https://bane1110.github.io/LevixonTeach/index.html`)){
+if(url.includes(`index.html`)){
+    console.log(url);
 // our community
 
 const $cBlock = $('#c-content');
@@ -729,8 +731,8 @@ for(let i=0; i<btnToCart.length; i++){
 
 
 //Courses page content
-
-if(url == (`https://bane1110.github.io/LevixonTeach/courses.html`)){
+// if(url == (`https://bane1110.github.io/LevixonTeach/courses.html`)){
+if(url.includes(`courses.html`)){
 
 
 const mainBlock = document.querySelector('main');
