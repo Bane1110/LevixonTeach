@@ -120,9 +120,10 @@ $btnSignin.click(function(e){
 
 
 
-const url = window.location.pathname;
+const url = window.location.href;
 console.log(url)
-if(url.includes(`index.html`)){
+
+if(url == (`https://bane1110.github.io/LevixonTeach/`)|| url == (`https://bane1110.github.io/LevixonTeach/index.html`)){
     console.log(url);
 // our community
 
@@ -730,7 +731,8 @@ for(let i=0; i<btnToCart.length; i++){
 
 
 //Courses page content
-if(url.includes(`courses.html`)){
+
+if(url == (`https://bane1110.github.io/LevixonTeach/courses.html`)){
 
 
 const mainBlock = document.querySelector('main');

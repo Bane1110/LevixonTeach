@@ -139,7 +139,7 @@ h2.all-h {
 
 /* Our Work */
 #us {
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -170,10 +170,11 @@ h2.all-h {
 #community {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
 }
 #community #c-content {
     display: flex;
+    margin: 6rem 0;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
@@ -182,7 +183,7 @@ h2.all-h {
 }
 .c-text {
     box-shadow: 0px 4px 15px rgba(29, 33, 43, 1.0);
-    width: 22%;
+    width: 24%;
     font-size: 1.75rem;
     height:  20rem;
     cursor: pointer;
@@ -228,7 +229,7 @@ h2.all-h {
 #courses {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     background-color: #1D212B;
 }
 #courses h2 {
@@ -295,6 +296,7 @@ h2.all-h {
 }
 #courses .btn-link {
     padding-top: 7rem;
+    margin-bottom: 4rem;
 }
 
 /* Review section */
@@ -405,7 +407,7 @@ h2.all-h {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 #contact-container {
     padding-top: 4rem;

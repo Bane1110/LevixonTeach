@@ -40,18 +40,11 @@
         width: 40%;
     }
     /* Our Work section */
-
-    #us{
-        height: 80vh;
-    }
     #us-content img{
         width: 40rem;
     }
 
     /* Communnity */
-    #community{
-        height: 80vh;
-    }
     #community #c-content{
         top: 15%;
     }
@@ -80,9 +73,6 @@
         font-size: 1.3rem;
     }
     /* Contact section */
-    #contact{
-        height: 90vh;
-    }
     #forma {
         width: 50%;
     }
@@ -165,7 +155,6 @@
     
         /* Courses section */
         #courses{
-            height: 92vh;
             padding: 2% 2%;
         }
         #courses #courses-content .co-text{
@@ -314,9 +303,6 @@
         width: 25%;
     }
     /* Communnity */
-    #community{
-        height: 150vh;
-    }
     #community #c-content{
         flex-direction: column;
         top: 5%;
@@ -328,9 +314,6 @@
     }
 
     /* Courses section */
-    #courses{
-        height: 200vh;
-    }
     #courses #courses-content{
         flex-direction: column;
     }
@@ -346,9 +329,6 @@
 
     /* Contact section */
 
-    #contact{
-        height: 95vh;
-    }
     #contact #contact-container{
         width: 100%;
     }
@@ -475,23 +455,16 @@
     }
 
     /* Our Work section */
-    #us{
-        height: 100vh;
-    }
     #us-content #us-text .btn-link{
         width: 46%;
     }
     /* Communnity */
-    #community{
-        height: 130vh;
-    }
     #community #c-content .c-text{
         width: 100%;
     }
 
     /* Courses section */
     #courses{
-        height: 195vh;
         overflow-x: hidden;
     }
     #courses #courses-content .co-text{
