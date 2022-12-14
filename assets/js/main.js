@@ -596,7 +596,7 @@ $formForma.append($spanLname);
 $formForma.append($emailAddress);
 const $spanMail = $(`<span>`);
 $spanMail.attr(`id`, `emailRe`);
-$spanMail.append(`E-Mail must contain @!`);
+$spanMail.append(`E-Mail must contain @ and needs to finish with gmail.com or other siffixes!`);
 $spanMail.css(`display`,`none`);
 $formForma.append($spanMail);
 
